@@ -1,48 +1,43 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://bea-hh.com">
+    <img alt="BeaHHLogo" src="src/images/beahh-logo.png" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  Beatriz Herce-Hagiwara x Thrive
+  <div style="font-size: medium; padding-top: 10px">Gatsby Site</div>
 </h1>
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Clone Repository**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
-
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
-
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
+    In the directory of your choosing, enter the following into the command line: 
 
     ```shell
-    cd my-gatsby-site/
-    npm run develop
+    # git clone the repository for this project
+    git clone https://github.com/bea-hh/thrive-gatsby-site.git
     ```
 
-3.  **Open the code and start customizing!**
+2.  **Install Packages**
 
-    Your site is now running at http://localhost:8000!
+    Navigate into the site's directory: "thrive-gatsby-site" and install node packages.
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+    ```shell
+    cd thrive-gatsby-site/
+    npm install
+    ```
 
-4.  **Learn more**
+3. **Start it up!**
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    In the same directory, run the following command:
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    ```shell
+    gatsby develop
+    ```
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+4.  **Check it out!**
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    This site is now running at http://localhost:8000!
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    Visit `src/pages/index.js` to review relevant code.
