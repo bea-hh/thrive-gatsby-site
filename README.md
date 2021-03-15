@@ -8,6 +8,10 @@
   <div style="font-size: medium; padding-top: 10px">Gatsby Site</div>
 </h1>
 
+## 💻 About this site
+Sit back, relax, and enjoy some cute kitten videos on this site. Not a cat person? Click "Hello World" to find what you're looking for instead. Enjoy!
+
+
 ## 🚀 Quick start
 
 1.  **Clone Repository**
